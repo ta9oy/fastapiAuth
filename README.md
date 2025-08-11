@@ -25,6 +25,7 @@ I'm open to hearing your feedback about the template and what you'd like to see 
 - Install Docker Desktop
 - Run `docker compose up --build`
 - Run `docker compose down` to stop all services
+- Run `docker compose up -d` run all services without building
 
 # How to run locally without postgres or docker.
 - in database/core.py change the DATABASE_URL to sqlite
